@@ -1,3 +1,7 @@
 # แปล The Continuous Delivery Maturity Model
 
+|                        | Initial                                                                                | Managed                                                                               | Defined                                                                                            | Quantitatively Managed                                                                | Optimizing               |
+| ---------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------ |
+| Culture & Organization | - Teams organized based on platform/ technology<br/>- Defined and documented processes | - One backlog per team <br/>- Adopt agile methodologies <br/>- Remove team boundaries | - Extended team collaboration <br/>- Remove boundary dev/ ops<br/>- Common process for all changes | - Cross-team continuous improvement <br/>-Teams responsible all the way to production | - Cross functional teams |
+
 อ้างอิงจาก [The Continuous Delivery Maturity Model](https://tech.aabouzaid.com/2016/01/continuous-delivery-and-maturity-model.html)
