@@ -4,4 +4,63 @@
 | ---------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------ |
 | Culture & Organization | - Teams organized based on platform/ technology<br/>- Defined and documented processes | - One backlog per team <br/>- Adopt agile methodologies <br/>- Remove team boundaries | - Extended team collaboration <br/>- Remove boundary dev/ ops<br/>- Common process for all changes | - Cross-team continuous improvement <br/>-Teams responsible all the way to production | - Cross functional teams |
 
+• Centralized version control
+Automated build scripts
+Build & Deploy
+No management of
+artifacts Manual deployment
+• Environments are manually provisioned
+Polling CI builds
+Any build can be re-created from source control
+Management of build artifacts • Automated
+deployment scripts • Automated
+provisioning of environments
+Commit hook Cl builds
+Build fails if quality is not met (code analysis, performance, etc.)
+• Team priorities keeping codebase deployable over doing new work • Builds are not left broken
+• Push button deployment and release of any releasable artifact to any environment
+• Orchestrated deployments • Blue Green Deployments
+• Standard deployment process for all environments
+• Zero touch Continuous Deployments
+Infrequent and unreliable releases
+Release
+• Painful infrequent but reliable releases
+Infrequent but fully automated and reliable releases in any environment
+• Frequent fully automated releases
+Deployment disconnected from release Canary releases
+• No rollbacks, always roll forward
+• Manual process
+Data Management
+• Data migrations are performed manually, no scripts
+• Data migrations
+using versioned scripts, performed manually
+• Automated and versioned changes to datastores
+Changes to datastores automatically performed as part of the deployment process
+• Automatic datastore
+changes and rollbacks tested with every deployment
+Test & Verification
+• Automated unit tests Separate test environment
+• Automatic Integration Tests
+• Static code
+analysis • Test coverage analysis
+Automatic functional tests
+Manual performance/ security tests
+Fully automatic acceptance tests
+• Automatic performance/security tests
+Manual exploratory testing based on risk based testing analysis
+Verify expected business value
+• Defects found and fixed immediately (roll forward)
+Information & Reporting
+Baseline process metrics • Manual reporting Visible to report runner
+• Automatic generation of release notes
+Measure the
+process • Automatic reporting • Visible to team
+Pipeline traceability Reporting history
+• Visible to cross-silo
+Dynamic self-service of information
+Report trend analysis
+• Real time graphs on deployment pipeline metrics
+Customizable dashboards • Cross-reference across
+organizational boundaries
+
 อ้างอิงจาก [The Continuous Delivery Maturity Model](https://tech.aabouzaid.com/2016/01/continuous-delivery-and-maturity-model.html)
