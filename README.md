@@ -1,27 +1,10 @@
 # แปล The Continuous Delivery Maturity Model
 
-|                        | Initial                                                                                | Managed                                                                               | Defined                                                                                            | Quantitatively Managed                                                                | Optimizing               |
-| ---------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------ |
-| Culture & Organization | - Teams organized based on platform/ technology<br/>- Defined and documented processes | - One backlog per team <br/>- Adopt agile methodologies <br/>- Remove team boundaries | - Extended team collaboration <br/>- Remove boundary dev/ ops<br/>- Common process for all changes | - Cross-team continuous improvement <br/>-Teams responsible all the way to production | - Cross functional teams |
+|                        | Initial                                                                                                                                                            | Managed                                                                                                                                                                                       | Defined                                                                                                                                                                                                                                            | Quantitatively Managed                                                                                                                                            | Optimizing                          |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| Culture & Organization | - Teams organized based on platform/ technology<br/>- Defined and documented processes                                                                             | - One backlog per team <br/>- Adopt agile methodologies <br/>- Remove team boundaries                                                                                                         | - Extended team collaboration <br/>- Remove boundary dev/ ops<br/>- Common process for all changes                                                                                                                                                 | - Cross-team continuous improvement <br/>-Teams responsible all the way to production                                                                             | - Cross functional teams            |
+| Build & Deploy         | - Centralized version control <br/>- Automated build scripts<br/>- No management of artifacts <br/>- Manual deployment<br/>- Environments are manually provisioned | - Polling CI builds<br/>- Any build can be re-created from source control<br/>- Management of build artifacts<br/>- Automated deployment scripts<br/>- Automated provisioning of environments | - Commit hook Cl builds<br/>- Build fails if quality is not met (code analysis, performance, etc.) <br/>- Push button deployment and release of any releasable artifact to any environment <br/>- Standard deployment process for all environments | - Team priorities keeping codebase deployable over doing new work <br/>- Builds are not left broken <br/>- Orchestrated deployments <br/>- Blue Green Deployments | - Zero touch Continuous Deployments |
 
-• Centralized version control
-Automated build scripts
-Build & Deploy
-No management of
-artifacts Manual deployment
-• Environments are manually provisioned
-Polling CI builds
-Any build can be re-created from source control
-Management of build artifacts • Automated
-deployment scripts • Automated
-provisioning of environments
-Commit hook Cl builds
-Build fails if quality is not met (code analysis, performance, etc.)
-• Team priorities keeping codebase deployable over doing new work • Builds are not left broken
-• Push button deployment and release of any releasable artifact to any environment
-• Orchestrated deployments • Blue Green Deployments
-• Standard deployment process for all environments
-• Zero touch Continuous Deployments
 Infrequent and unreliable releases
 Release
 • Painful infrequent but reliable releases
